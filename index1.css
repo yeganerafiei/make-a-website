@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* overflow:scroll; */
+}
+
+.container>* {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+
+}
+
+.container > .header {
+   background-color: aquamarine;
+   /* text-align: center;
+   align-items: center;
+   /* align-content: center; */
+   /* align-self: center; */ 
+   justify-content: space-between;
+}
+
+header {
+    background-color: aqua;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    
+}
+
+header p {
+    position: sticky;
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem;
+    /* margin-left: 200px; */
+    text-align:center;
+    
+}
+
+/* @media screen and (min-width:360px) {
+ .header {
+    background-color: aqua;
+ }
+    
+} */
+
+.one {
+    display: flex; 
+     flex-wrap: wrap;
+    /* width: 80vw; */
+    background-color: bisque;
+    height: 30vh;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 2rem;
+    border-radius: 10px;
+    /* position: relative; */
+    
+}
+
+h2, .para1 {
+    border: inherit;
+    text-align: inherit;
+    line-height: 30px;
+    /* position: absolute; */
+    
+}
+
+/* @media screen and (min-width:360px) {
+    .one,.two {
+        background-color: bisque;
+    }
+} */
+/* .para1 {
+    font-weight: 400;
+} */
+
+.two {
+    display: flex;
+    flex-flow: wrap row;
+    /* width: 100vw; */
+    height: 50vh;
+    background-color: rgb(180, 51, 51);
+    border-radius: 10px;
+    margin-top: 2rem;
+    justify-content: space-around;
+    position: relative;
+}
+  
+.two >div {
+   width: 250px;
+   height: 300px;
+   background-color: gray;
+   padding: 10px;
+   margin: .5rem;
+   border-radius: inherit;
+   /* line-height: 10; */
+   border: 1px solid black;
+    align-content: center;
+    /* position: absolute; */
+}
+
+.box3 >img {
+    border: inherit;
+    border-radius: inherit;
+    width: 90%;
+    height: 60%;
+    margin-top: 1rem;
+    align-self: center;
+    
+}
+
+.box4 >img {
+    width: 90%;
+    height: 60%;
+    border-radius: inherit;
+    margin-top: 1rem;
+    /* margin-bottom: 3rem; */
+    border: inherit;
+}
+
+ div>h3 {
+   
+    margin-top:1rem;
+    background-color: rgb(134, 184, 204);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.box1 {
+    background-image: url(./pizza-logo.png);
+    background-size: contain;
+    background-position: center;
+    margin-top: 2rem;
+}
+
+.box2 {
+    background-image: url(/71908.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* .box4 {
+    background-image: url(./kisspng-pasta-italian-cuisine-spaghetti-scalable-vector-gr-la-scala-trattoria-ignaz-5ced2e1869e118.5388218115590477044337.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.para3 {
+    line-height: 25;
+}
+
+
+
+
+
+    
+
+
+
+
